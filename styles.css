@@ -3,6 +3,7 @@
     display: flex;
     border: solid 5px darkblue;
     justify-content: center;
+    align-items: center;
     width: 500px;
     height: 500px;
 }
@@ -12,5 +13,5 @@
     border: solid 5px darkred;
     width: 100px;
     height: 100px;
-    align-self: center;
+    /* align-self: center; */
 }
