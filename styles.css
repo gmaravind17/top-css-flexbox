@@ -1,0 +1,16 @@
+.flex-container {
+    background-color: blue;
+    display: flex;
+    border: solid 5px darkblue;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+}
+
+.item-1 {
+    background-color: red;
+    border: solid 5px darkred;
+    width: 100px;
+    height: 100px;
+    align-self: center;
+}
