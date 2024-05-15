@@ -1,3 +1,35 @@
-*{
+* {
     outline: red 2px solid;
+    font-family: cursive;
+}
+
+.logo {
+   font-size: 20px;
+   font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    gap: 8px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    
+}
+
+.left-header {
+    
+    margin-right: auto;
+}
+
+.right-header {
+    margin-left: auto;
 }
