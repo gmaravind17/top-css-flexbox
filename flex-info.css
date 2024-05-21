@@ -5,3 +5,11 @@ img {
     width: 90px;
     height: auto;
 }
+.info-section {
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+.info-card {
+    width: 20%;
+}
