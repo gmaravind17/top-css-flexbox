@@ -1,15 +1,27 @@
 * {
-    outline: solid red 1px;
+    /* outline: solid red 1px; */
 }
-
+body {
+    background-color: lightgray;
+    font-family: Roboto, sans-serif;
+}
 .container {
     display: flex;
+    width: 50%;
+    background-color: white;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10px;
 }
 
 .bang-icon button{
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    background-color: lightgray;
+    font-size: 26px;
+    color: royalblue;
+    border: none;
 }
 .content p, .content h3{
     margin-top: 0px;
@@ -19,7 +31,16 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
+    border: none;
 }
-/* .round {
-    border-radius: 50%;
-} */
+.continue-btn {
+    background-color: royalblue;
+    color: white;
+    padding: 8px;
+    border-radius: 15%;
+}
+.close-btn {
+    color: royalblue;
+    padding: 8px;
+    border-radius: 15%;
+}
