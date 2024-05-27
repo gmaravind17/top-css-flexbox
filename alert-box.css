@@ -1,0 +1,25 @@
+* {
+    outline: solid red 1px;
+}
+
+.container {
+    display: flex;
+}
+
+.bang-icon button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.content p, .content h3{
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+.close-icon button{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+/* .round {
+    border-radius: 50%;
+} */
