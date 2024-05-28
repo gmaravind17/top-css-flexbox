@@ -1,0 +1,24 @@
+* {
+    /*     outline: red 1px solid; */
+}
+
+ul {
+    /* removes bullets from list items */
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px 10px 40px;
+}
+
+li {
+    display: inline;
+    margin: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #eeeeee;
+}
