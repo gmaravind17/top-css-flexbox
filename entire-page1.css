@@ -1,5 +1,5 @@
 * {
-    /*     outline: red 1px solid; */
+    /* outline: red 1px solid; */
 }
 
 ul {
@@ -19,6 +19,35 @@ a {
     text-decoration: none;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .footer {
     background-color: #eeeeee;
+}
+
+.body {
+    text-align: center;
+    margin: 100px;
+}
+
+.odin-image {
+    width: 600px;
+}
+
+button {
+    margin: 10px;
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    background: #eee;
+}
+
+input {
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    padding: 8px 24px;
+    width: 400px;
 }
